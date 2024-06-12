@@ -680,6 +680,9 @@ SNAKE.Board = SNAKE.Board || (function() {
         // private functions
         // ---------------------------------------------------------------------
 
+        /**
+         * Creates the board elements for the snake game.
+         */
         function createBoardElements() {
             elmPlayingField = document.createElement("div");
             elmPlayingField.setAttribute("id", "playingField");
@@ -695,7 +698,7 @@ SNAKE.Board = SNAKE.Board || (function() {
 
             elmAboutPanel = document.createElement("div");
             elmAboutPanel.className = "snake-panel-component";
-            elmAboutPanel.innerHTML = "<a href='http://patorjk.com/blog/software/' class='snake-link'>more patorjk.com apps</a> - <a href='https://github.com/patorjk/JavaScript-Snake' class='snake-link'>source code</a> - <a href='https://www.youtube.com/channel/UCpcCLm9y6CsjHUrCvJHYHUA' class='snake-link'>pat's youtube</a>";
+            elmAboutPanel.innerHTML = "<a href='https://github.com/yorliabdulai' class='snake-link'>more yorli.com apps</a> - <a href='https://github.com/yorliabdulai/JavaScript-Snake' class='snake-link'>source code</a>";
 
             elmLengthPanel = document.createElement("div");
             elmLengthPanel.className = "snake-panel-component";
